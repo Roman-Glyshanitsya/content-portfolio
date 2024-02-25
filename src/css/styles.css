@@ -1,6 +1,8 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
+/* Base */
+@import url('./base/reset.css');
+@import url('./base/container.css');
+@import url('./base/common.css');
+
+
+
+@import url('./layout/hero.css');
