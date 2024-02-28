@@ -17,7 +17,7 @@
 }
 
 .projects__list {
-    position: relative;
+    /* position: relative; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -26,48 +26,29 @@
 
 .projects__item {}
 
+/* video 1 */
+/* .projects__item-1 {
+    position: relative;
+}
+
+.project__item__video-player {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.project__item__video-player iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.project__item__video-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+} */
+
 .projects__item-img {}
-
-.projects__img-1 {
-    width: 300px;
-}
-
-.projects__img-2 {
-    position: absolute;
-    top: 10%;
-    width: 500px;
-}
-
-.projects__img-3 {
-    /* position: absolute;
-    top: 5%;
-    right: 0; */
-    width: 300px;
-}
-
-.projects__img-4 {
-    position: absolute;
-    z-index: 1;
-    width: 300px;
-}
-
-.projects__img-5 {
-    /* position: absolute;
-    right: 0; */
-    width: 300px;
-}
-
-.projects__img-6 {
-    /* position: absolute;
-    top: 70%;
-    left: 40%; */
-    width: 300px;
-}
-
-.projects__img-7 {
-    width: 300px;
-}
-
-.projects__img-8 {
-    width: 300px;
-}
