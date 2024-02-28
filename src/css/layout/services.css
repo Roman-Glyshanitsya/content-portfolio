@@ -1,7 +1,11 @@
 .services {
     height: 100vh;
-    background-color: #e7e8e7;
-    padding: 100px 0;
+    background-color: #fff;
+    margin: auto 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .services__title {
