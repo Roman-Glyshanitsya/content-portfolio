@@ -17,14 +17,19 @@
 }
 
 .projects__list {
-    /* position: relative; */
-    display: flex;
+    position: relative;
+    /* display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 30px;
+    align-items: center;
+    gap: 30px; */
 }
 
 .projects__item {}
+
+.projects__item-1 {}
+
+.projects__item-2 {}
 
 /* video 1 */
 /* .projects__item-1 {
