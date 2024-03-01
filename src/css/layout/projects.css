@@ -17,19 +17,33 @@
 }
 
 .projects__list {
-    position: relative;
-    /* display: flex;
+    display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    gap: 30px; */
 }
 
 .projects__item {}
 
-.projects__item-1 {}
+.three-in-row__list {
+    position: relative;
+    width: 100%;
+    gap: 40px;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
 
-.projects__item-2 {}
+.three-in-row__list .projects__item:nth-child(2) {
+    position: absolute;
+    left: 40%;
+}
+
+.projects__item:last-child {
+    margin-top: 80px;
+}
+
 
 /* video 1 */
 /* .projects__item-1 {
