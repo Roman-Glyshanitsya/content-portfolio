@@ -1,8 +1,40 @@
 .clients {
-    height: 300px;
+    padding: 100px 0;
     background-color: #e7e8e7;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .clients__title {
-    font-size: 50px;
+    color: #1c1c1c;
+    opacity: 1;
+    text-transform: uppercase;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 130%;
+    border-bottom: 3px solid #bebfbe;
+
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+.clients__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.clients__item {
+    display: flex;
+    justify-content: center;
+    flex-basis: calc((100% - 200px) / 4);
+}
+
+.clients__img {
+    width: 100px;
 }
