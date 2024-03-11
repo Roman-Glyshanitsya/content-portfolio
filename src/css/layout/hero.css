@@ -3,8 +3,8 @@
     height: 100vh;
     /* text-align: center; */
     display: flex;
-    /* justify-content: center; */
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
     background-color: #1c1c1c;
 }
 
@@ -17,6 +17,7 @@
     line-height: 130%;
     margin-bottom: 20px;
     padding-left: 30%;
+    margin-bottom: 120px;
 }
 
 .hero__text {
@@ -47,7 +48,7 @@
 
 .hero__gif-2-thumb {
     position: absolute;
-    top: 30%;
+    top: 20%;
     width: 300px;
     border: 2px solid white;
     box-shadow: rgba(255, 255, 255, 0.9) 0px 5px 15px;
