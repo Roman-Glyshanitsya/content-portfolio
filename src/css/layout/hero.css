@@ -36,7 +36,7 @@
     top: 0;
     left: 40%;
     width: 200px;
-    border: 2px solid white;
+    border: 5px solid #1c1c1c;
     box-shadow: rgba(255, 255, 255, 0.9) 0px 5px 15px;
     border-radius: 20px;
     overflow: hidden;
@@ -112,7 +112,7 @@
     right: 10%;
     bottom: -20%;
     width: 200px;
-    border: 2px solid white;
+    border: 5px solid #1c1c1c;
     box-shadow: rgba(255, 255, 255, 0.9) 0px 5px 15px;
     border-radius: 20px;
     overflow: hidden;
@@ -127,7 +127,7 @@
     top: 75%;
     left: 40%;
     width: 300px;
-    border: 2px solid white;
+    border: 5px solid #1c1c1c;
     box-shadow: rgba(255, 255, 255, 0.9) 0px 5px 15px;
     border-radius: 20px;
     overflow: hidden;
