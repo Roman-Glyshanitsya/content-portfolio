@@ -24,11 +24,11 @@
     /* align-items: center; */
 }
 
-.projects__item {
+/* .projects__item {
     will-change: transform;
-}
+} */
 
-.back {
+/* .back {
     transform: translate3d(0, calc(var(--scrollTop) / 5), 0);
 }
 
@@ -38,7 +38,7 @@
 
 .front {
     transform: translate3d(0, calc(var(--scrollTop) / 2), 0);
-}
+} */
 
 .three-in-row__list {
     position: relative;

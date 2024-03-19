@@ -1,27 +1,31 @@
 .hero {
-    position: relative;
-    height: 1000px;
     background-color: #1c1c1c;
+}
 
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
+.wrapper {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero__title {
+    width: 500px;
     color: #e7e8e7;
     text-transform: uppercase;
     font-family: Helvetica Neue, sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 130%;
-
-    margin-top: 23%;
-    margin-left: 27%;
+    margin-bottom: 20px;
 }
 
 .hero__text {
-    width: 600px;
+    width: 500px;
     color: #e7e8e7;
     text-transform: uppercase;
     font-family: Helvetica Neue, sans-serif;
@@ -29,12 +33,12 @@
     font-weight: 400;
     line-height: 130%;
 
-    margin-left: 27%;
+    /* margin-left: 27%; */
 }
 
 .hero__gif-1-thumb {
     position: absolute;
-    top: 2%;
+    top: 3%;
     left: 40%;
     width: 250px;
     border: 5px solid #1c1c1c;
@@ -45,13 +49,12 @@
 
 .hero__gif-1 {
     width: 100%;
-    height: auto;
 }
 
 .hero__gif-2-thumb {
     position: absolute;
     top: 20%;
-    left: 5%;
+    left: 0;
     width: 300px;
     border: 5px solid #1c1c1c;
     box-shadow: rgba(255, 255, 255, 0.9) 0px 5px 15px;
@@ -65,7 +68,7 @@
 
 .hero__gif-3-thumb {
     position: absolute;
-    right: 10%;
+    right: 0;
     top: 10%;
     width: 300px;
     border: 5px solid #1c1c1c;
@@ -83,8 +86,8 @@
 
 .hero__gif-4-thumb {
     position: absolute;
-    right: 15%;
-    bottom: -10%;
+    right: 7%;
+    bottom: 3%;
     width: 250px;
     border: 5px solid #1c1c1c;
     box-shadow: rgba(255, 255, 255, 0.9) 0px 5px 15px;
@@ -98,7 +101,7 @@
 
 .hero__gif-5-thumb {
     position: absolute;
-    top: 60%;
+    bottom: -7%;
     left: 35%;
     width: 300px;
     border: 5px solid #1c1c1c;
