@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #1c1c1c;
+    /* background-color: #1c1c1c; */
 }
 
 .container {}
@@ -32,44 +32,39 @@
     font-weight: 700;
     line-height: 100%;
     text-align: center;
+
 }
 
 .header__nav-img {}
 
 .header__nav-link {}
 
-.header__nav-portfolio-link {}
-
-/* .heder__svg-icon {
-    width: 100px;
-    height: 100px;
-} */
-
-.header__nav-portfolio-link::before {
+.header__nav-link::before {
     content: '';
     width: 100%;
     height: 100%;
     display: block;
 
-    /* background-image: url('/images/icons/favicon.svg'); */
-    /* background-image: url('/images/icons/hlop-icon.svg'); */
-    background-image: url('/images/icons/hlop1.png');
+    background-image: url('/images/icons/hlop-open-white.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    transition: 300ms ease-in;
+
+    transition: all 300ms ease-in;
     margin-bottom: 15px;
 }
 
-.header__nav-portfolio-link:hover::before {
+.header__nav-link:hover::before {
     content: '';
-    display: block;
     width: 100%;
     height: 100%;
-    background-image: url('/images/icons/favicon2.svg');
+    display: block;
+
+    background-image: url('/images/icons/hlop-close-white.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+
     transform: scale(1.1);
     transition: all 300ms ease-in-out;
 }
