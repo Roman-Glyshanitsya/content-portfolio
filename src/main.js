@@ -1,2 +1,2 @@
 import "./js/video";
-import "./js/parallax";
+import "./js/hero-parallax";
