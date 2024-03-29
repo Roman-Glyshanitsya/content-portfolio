@@ -1,5 +1,6 @@
 .hero {
     background-color: #1c1c1c;
+    color: #e7e8e7;
 }
 
 .wrapper {
@@ -15,7 +16,6 @@
 
 .hero__title {
     width: 500px;
-    color: #e7e8e7;
     text-transform: uppercase;
     font-family: "Helvetica Neue", sans-serif;
     font-size: 20px;
@@ -26,7 +26,6 @@
 
 .hero__text {
     width: 500px;
-    color: #e7e8e7;
     text-transform: uppercase;
     font-family: "Helvetica Neue", sans-serif;
     font-size: 20px;
@@ -38,11 +37,11 @@
     will-change: transform;
 }
 
-.down-front {
+.down-fast {
     transform: translate3d(0, calc(var(--scrollTop) / 7), 0);
 }
 
-.down-middle {
+.down-slow {
     transform: translate3d(0, calc(var(--scrollTop) / 4), 0);
 }
 
@@ -50,18 +49,21 @@
     transform: translate3d(0, calc(var(--scrollTop) / -5), 0);
 }
 
-.hero__gif-1-thumb {
-    position: absolute;
-    top: 3%;
-    left: 40%;
-    width: 250px;
+.hero__gif-thumb {
     border: 5px solid #1c1c1c;
     box-shadow: rgba(255, 255, 255, 0.9) 0px 5px 15px;
     border-radius: 20px;
     overflow: hidden;
 }
 
-.hero__gif-1 {
+.hero__gif-1-thumb {
+    position: absolute;
+    top: 3%;
+    left: 40%;
+    width: 250px;
+}
+
+.hero__gif {
     width: 100%;
 }
 
@@ -70,14 +72,6 @@
     top: 20%;
     left: 0;
     width: 300px;
-    border: 5px solid #1c1c1c;
-    box-shadow: rgba(255, 255, 255, 0.9) 0px 5px 15px;
-    border-radius: 20px;
-    overflow: hidden;
-}
-
-.hero__gif-2 {
-    width: 100%;
 }
 
 .hero__gif-3-thumb {
@@ -85,17 +79,8 @@
     right: 0;
     top: 10%;
     width: 300px;
-    border: 5px solid #1c1c1c;
-    box-shadow: rgba(255, 255, 255, 0.9) 0px 5px 15px;
-    border-radius: 20px;
-    overflow: hidden;
     padding-bottom: 5px;
     background-color: #fff;
-
-}
-
-.hero__gif-3 {
-    width: 100%;
 }
 
 .hero__gif-4-thumb {
@@ -103,14 +88,6 @@
     right: 7%;
     bottom: 3%;
     width: 250px;
-    border: 5px solid #1c1c1c;
-    box-shadow: rgba(255, 255, 255, 0.9) 0px 5px 15px;
-    border-radius: 20px;
-    overflow: hidden;
-}
-
-.hero__gif-4 {
-    width: 100%;
 }
 
 .hero__gif-5-thumb {
@@ -118,12 +95,4 @@
     bottom: 0;
     left: 35%;
     width: 300px;
-    border: 5px solid #1c1c1c;
-    box-shadow: rgba(255, 255, 255, 0.9) 0px 5px 15px;
-    border-radius: 20px;
-    overflow: hidden;
-}
-
-.hero__gif-5 {
-    width: 100%;
 }

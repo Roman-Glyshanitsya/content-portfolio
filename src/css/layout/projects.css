@@ -45,7 +45,6 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    gap: 40px;
     margin-top: 70px;
     margin-bottom: 50px;
 }
