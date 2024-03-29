@@ -7,7 +7,7 @@
 
 .header__nav {
     position: fixed;
-    top: 3%;
+    top: 4%;
     left: 10%;
     z-index: 100;
 }
@@ -20,8 +20,8 @@
 }
 
 .header__nav-item {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 }
 
 .header__nav-link {}
@@ -40,7 +40,7 @@
 }
 
 .header__nav-text {
-    color: #e7e8e7;
+    color: #929292;
     font-family: "Helvetica Neue", sans-serif;
     font-size: 16px;
     font-weight: 700;
