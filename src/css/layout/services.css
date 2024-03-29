@@ -4,6 +4,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    background-color: #e7e8e7;
 }
 
 .services__title {
