@@ -17,7 +17,6 @@
 .hero__title {
     width: 500px;
     text-transform: uppercase;
-    font-family: "Helvetica Neue", sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 130%;
@@ -27,11 +26,34 @@
 .hero__text {
     width: 500px;
     text-transform: uppercase;
-    font-family: "Helvetica Neue", sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 130%;
 }
+
+/* .red {
+    color: red;
+}
+
+.orange {
+    color: orange;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.green {
+    color: green;
+}
+
+.blue {
+    color: blue;
+}
+
+.purple {
+    color: purple;
+} */
 
 .projects__item {
     will-change: transform;

@@ -1,4 +1,24 @@
+@font-face {
+    font-family: 'SF Pro';
+    src: url('../fonts/SF-Pro-Display-Bold.otf') format('OpenType');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'SF Pro';
+    src: url('../fonts/SF-Pro-Display-Medium.otf') format('OpenType');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'SF Pro';
+    src: url('../fonts/SF-Pro-Display-Regular.otf') format('OpenType');
+    font-weight: 400;
+}
+
 body {
+    font-family: 'SF Pro', sans-serif;
+    /* font-family: "Helvetica Neue", sans-serif; */
     background-color: #e7e8e7;
     scroll-behavior: smooth;
 }
