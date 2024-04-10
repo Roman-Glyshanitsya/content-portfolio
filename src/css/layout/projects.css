@@ -7,9 +7,10 @@
     color: #e7e8e7;
     opacity: 1;
     text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 27px;
+    font-weight: 700;
     line-height: 130%;
+    text-align: end;
     border-bottom: 3px solid #bebfbe;
 
     padding-bottom: 30px;
