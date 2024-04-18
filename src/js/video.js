@@ -1,13 +1,13 @@
-// document.addEventListener("DOMContentLoaded", function () {
-//   (function initPlayVideo() {
-//     var videoCover = document.querySelector(".project__item__video-image");
-//     var videoPlayerIframe = document.querySelector(
-//       ".project__item__video-player iframe"
-//     );
+document.addEventListener("DOMContentLoaded", function () {
+  (function initPlayVideo() {
+    var videoCover = document.querySelector(".projects__item__img");
+    var videoPlayerIframe = document.querySelector(
+      ".pojects__item__thumb iframe"
+    );
 
-//     videoCover.addEventListener("click", function () {
-//       videoCover.style.display = "none";
-//       videoPlayerIframe.src += "&autoplay=1";
-//     });
-//   })();
-// });
+    videoCover.addEventListener("click", function () {
+      videoCover.style.display = "none";
+      videoPlayerIframe.src += "&autoplay=1";
+    });
+  })();
+});
