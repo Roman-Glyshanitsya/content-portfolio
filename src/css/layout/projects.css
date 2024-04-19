@@ -25,8 +25,6 @@
 
 .projects__item {
     will-change: transform;
-
-    /* cursor: pointer; */
 }
 
 .pojects__item__thumb {
@@ -57,9 +55,6 @@
 .projects__item__play-btn {
     position: absolute;
     z-index: 10;
-    /* top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
     bottom: 15px;
     left: 15px;
 
@@ -80,7 +75,7 @@
 
 .pojects__item__thumb:hover .projects__item__play-btn,
 .pojects__item__thumb:focus .projects__item__play-btn {
-    background-color: #000;
+    background-color: #1c1c1c;
 }
 
 .projects__item__play-btn__icon {
@@ -95,7 +90,7 @@
 }
 
 .prejects__down-fast {
-    transform: translate3d(0, calc(var(--scrollTop) / 6), 0);
+    transform: translate3d(0, calc(var(--scrollTop) / 5), 0);
 }
 
 .prejects__down-slow {
@@ -108,6 +103,7 @@
 
 .three-in-row__list {
     position: relative;
+    /* z-index: 10; */
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -145,7 +141,7 @@
 .projects__item--pos {
     position: relative;
     z-index: 2;
-    top: -100px;
+    top: -150px;
     left: 0;
 }
 
