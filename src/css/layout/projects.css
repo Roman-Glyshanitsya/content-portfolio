@@ -75,7 +75,7 @@
 .pojects__item__thumb:hover .projects__item__play-btn,
 .pojects__item__thumb:focus .projects__item__play-btn {
     background-color: #1c1c1c;
-    /* box-shadow: inset 0 0 15px 15px #000; */
+    box-shadow: inset 0 0 15px 15px #000;
 }
 
 .projects__item__play-btn__icon {
