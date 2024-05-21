@@ -11,10 +11,17 @@
     font-weight: 700;
     line-height: 130%;
     text-align: end;
-    border-bottom: 3px solid #bebfbe;
+    /* border-bottom: 3px solid #bebfbe; */
 
     padding-bottom: 30px;
     margin-bottom: 50px;
+}
+
+.projects__thumb {
+    height: 90vh;
+    border-top: 3px solid #bebfbe;
+    border-bottom: 3px solid #bebfbe;
+    overflow: hidden;
 }
 
 .projects__list {
