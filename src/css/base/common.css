@@ -1,24 +1,12 @@
-@font-face {
-    font-family: 'SF Pro';
-    src: url('../fonts/SF-Pro-Display-Bold.otf') format('OpenType');
-    font-weight: 700;
-}
-
-@font-face {
-    font-family: 'SF Pro';
-    src: url('../fonts/SF-Pro-Display-Medium.otf') format('OpenType');
-    font-weight: 500;
-}
-
-@font-face {
-    font-family: 'SF Pro';
-    src: url('../fonts/SF-Pro-Display-Regular.otf') format('OpenType');
-    font-weight: 400;
+:root {
+    --primary-color: #eff1f0;
+    --secondary-color: #0c0a00;
 }
 
 body {
-    font-family: 'SF Pro', sans-serif;
-    /* font-family: "Helvetica Neue", sans-serif; */
-    background-color: #e7e8e7;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+
+    background-color: var(--primary-color);
     scroll-behavior: smooth;
 }
