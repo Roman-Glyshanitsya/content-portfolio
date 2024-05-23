@@ -26,37 +26,20 @@
     z-index: 100;
 }
 
-.header__nav-list {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-}
+.header__nav-list {}
 
-.header__nav-item {
-    width: 70px;
-    height: 70px;
+.header__nav-item:not(:last-child) {
+    margin-bottom: 5px;
 }
 
 .header__nav-btn {
+    width: 92px;
+    height: 31px;
     border: none;
-    background-color: transparent;
-}
-
-.header__nav-img {
-    margin-bottom: 10px;
-    transition: transform 300ms ease-in-out;
-}
-
-.header__nav-img:hover {
-    transform: scale(1.1);
-}
-
-.header__nav-text {
-    color: #929292;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 100%;
-    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    color: var(--secondary-color);
+    background-color: #ff69b4;
 }
 
 .contacts__window {
