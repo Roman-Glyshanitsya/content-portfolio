@@ -16,13 +16,12 @@
     color: var(--primary-color);
     font-size: 30px;
     text-transform: uppercase;
-
 }
 
 .header__nav {
     position: fixed;
-    top: 4%;
-    right: 10%;
+    top: 25px;
+    right: 50px;
     z-index: 100;
 }
 
@@ -38,7 +37,9 @@
     border: none;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
-    color: var(--secondary-color);
+    font-size: 18px;
+    /* letter-spacing: 0.5px; */
+    color: var(--primary-color);
     background-color: #ff69b4;
 }
 
