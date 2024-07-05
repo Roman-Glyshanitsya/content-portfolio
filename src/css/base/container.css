@@ -1,5 +1,20 @@
 .container {
     width: 100%;
-    margin: 0 auto;
-    padding: 25px 50px;
+    /* padding: 25px 50px; */
+}
+
+@media screen and (min-width: 390px) {
+    .container {
+        width: 390px;
+        padding: 20px;
+
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1200px;
+        padding: 20px;
+        margin: 0 auto;
+    }
 }
