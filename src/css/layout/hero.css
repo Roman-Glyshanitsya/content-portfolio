@@ -21,13 +21,13 @@
 .hero__title {
     position: fixed;
     z-index: 2;
-    top: 32%;
+    top: 50%;
     left: 0;
     width: 100%;
     color: var(--primary-color);
     text-transform: uppercase;
     font-size: 90px;
-    letter-spacing: 5px;
+    /* letter-spacing: 5px; */
 }
 
 .hero__text {
