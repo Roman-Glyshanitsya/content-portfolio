@@ -24,7 +24,7 @@
     z-index: 2;
     top: 295px;
     left: 0;
-    width: 100%;
+    /* width: 364px; */
     color: var(--primary-color);
     text-transform: uppercase;
     font-size: 90px;
@@ -76,24 +76,25 @@
 
 .hero__gif-2-thumb {
     position: absolute;
-    bottom: 45%;
-    right: 2%;
-    width: 430px;
+    top: 410px;
+    right: 25px;
+    width: 165px;
 }
 
 .hero__gif-3-thumb {
     position: absolute;
     z-index: 3;
-    left: 10%;
-    bottom: 2%;
+    top: 410px;
+    left: 20px;
+    width: 133px;
 }
 
 .hero__gif-4-thumb {
     position: absolute;
     z-index: 3;
-    left: 44%;
-    bottom: 0;
-    width: 300px;
+    top: 600px;
+    right: 15px;
+    width: 131px;
     /* background-color: var(--primary-color);
     padding: 5px; */
 }
