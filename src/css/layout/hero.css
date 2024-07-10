@@ -9,8 +9,8 @@
 
 .wrapper {
     /* outline: 2px solid red; */
-    /* position: relative;
-    width: 100%;
+    /* position: relative; */
+    /* width: 100%;
     height: 1000px; */
 
     /* display: flex; */
@@ -21,7 +21,7 @@
 .hero__title {
     position: fixed;
     z-index: 2;
-    top: 50%;
+    top: 32%;
     left: 0;
     width: 100%;
     color: var(--primary-color);

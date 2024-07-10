@@ -26,7 +26,11 @@
     /* z-index: 100; */
 }
 
-.header__nav-list {}
+.header__nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
 
 .header__nav-item {}
 
