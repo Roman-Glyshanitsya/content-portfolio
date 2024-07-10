@@ -8,7 +8,7 @@
 
 @media screen and (min-width: 390px) {
     .container {
-        min-width: 390px;
+        width: 390px;
         padding: 20px;
 
     }
