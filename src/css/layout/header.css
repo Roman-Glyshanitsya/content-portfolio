@@ -7,6 +7,7 @@
 }
 
 .header .container {
+    position: relative;
     display: flex;
     justify-content: space-between;
 }
@@ -20,16 +21,16 @@
 
 
 .header__nav {
-    /* position: fixed;
-    top: 0;
-    left: 0; */
-    /* z-index: 100; */
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
 }
 
 .header__nav-list {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 3px;
 }
 
 .header__nav-item {}
