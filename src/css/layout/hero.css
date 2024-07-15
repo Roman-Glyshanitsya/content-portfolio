@@ -21,7 +21,7 @@
 
 .hero__text {
     width: 159px;
-    color: #ff69b4;
+    color: var(--accent-color);
     text-transform: uppercase;
     font-size: 18px;
     line-height: 0.9;
