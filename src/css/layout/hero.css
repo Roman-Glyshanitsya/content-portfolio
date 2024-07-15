@@ -4,7 +4,6 @@
     color: var(--primary-color);
 
     position: relative;
-    overflow: hidden;
 }
 
 .hero__title {
@@ -12,7 +11,7 @@
     z-index: 2;
     top: 295px;
     left: 0;
-    /* width: 364px; */
+    width: 360px;
     color: var(--primary-color);
     text-transform: uppercase;
     font-size: 85px;
