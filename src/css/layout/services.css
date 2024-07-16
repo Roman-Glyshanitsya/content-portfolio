@@ -27,3 +27,14 @@
     border-bottom: 3px solid var(--accent-color);
 
 }
+
+
+@media screen and (min-width: 1200px) {
+    .services__title {
+        color: var(--accent-color);
+        text-transform: uppercase;
+        font-size: 285px;
+        line-height: 130%;
+        margin-bottom: 30px;
+    }
+}

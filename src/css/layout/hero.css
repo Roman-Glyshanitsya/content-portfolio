@@ -3,7 +3,7 @@
     background-color: var(--secondary-color);
     color: var(--primary-color);
 
-    position: relative;
+    /* position: relative; */
 }
 
 .hero__title {
@@ -94,8 +94,9 @@
     }
 
     .hero__title {
-        bottom: -7%;
-        font-size: 290px;
+        /* top: 0;
+        left: -10%; */
+        font-size: 285px;
         /* letter-spacing: 5px; */
     }
 
