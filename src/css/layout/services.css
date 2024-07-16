@@ -3,6 +3,7 @@
 }
 
 .services__title {
+    position: sticky;
     color: var(--accent-color);
     text-transform: uppercase;
     font-size: 88px;
