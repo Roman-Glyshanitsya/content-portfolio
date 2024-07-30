@@ -9,17 +9,27 @@
     font-size: 20vw;
 }
 
-/* .projects__thumb {
-    height: 90vh;
-    border-top: 3px solid #bebfbe;
-    border-bottom: 3px solid #bebfbe;
-    overflow: hidden;
-} */
+.projects__line {
+    width: 100%;
+    border: 3px solid var(--accent-color);
+}
 
-/* .projects__list {
+.bottom__line {
+    margin-top: 70vh;
+}
+
+.projects__thumb {
+    /* width: 100%;
+    height: 75vh; */
+    /* border-top: 3px solid var(--accent-color);
+    border-bottom: 3px solid var(--accent-color); */
+    /* overflow: hidden; */
+}
+
+.projects__list {
     display: flex;
     gap: 40px;
-} */
+}
 
 .projects__item {
     will-change: transform;
