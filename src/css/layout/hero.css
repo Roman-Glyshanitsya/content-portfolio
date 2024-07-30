@@ -58,7 +58,7 @@
 
 .hero__gif-2-thumb {
     position: absolute;
-    top: 410px;
+    top: 390px;
     right: 25px;
     width: 165px;
 }
@@ -77,16 +77,7 @@
     top: 600px;
     right: 15px;
     width: 131px;
-    /* background-color: var(--primary-color);
-    padding: 5px; */
 }
-
-/* .hero__gif-5-thumb {
-    position: absolute;
-    bottom: 0;
-    left: 35%;
-    width: 300px;
-} */
 
 @media screen and (min-width: 1200px) {
     .hero {
