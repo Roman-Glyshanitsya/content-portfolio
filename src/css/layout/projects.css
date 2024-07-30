@@ -4,25 +4,22 @@
 }
 
 .projects__title {
-    color: var(--primary-color);
+    color: var(--accent-color);
     text-transform: uppercase;
-    font-size: 270px;
-    /* line-height: 1; */
+    font-size: 20vw;
 }
 
-.projects__thumb {
+/* .projects__thumb {
     height: 90vh;
     border-top: 3px solid #bebfbe;
     border-bottom: 3px solid #bebfbe;
     overflow: hidden;
-}
+} */
 
-.projects__list {
+/* .projects__list {
     display: flex;
     gap: 40px;
-    /* flex-wrap: wrap;
-    justify-content: space-around; */
-}
+} */
 
 .projects__item {
     will-change: transform;
