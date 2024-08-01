@@ -6,6 +6,10 @@
     /* position: relative; */
 }
 
+.hero .container {
+    position: relative;
+}
+
 .hero__title {
     position: sticky;
     z-index: 2;
@@ -23,7 +27,7 @@
     font-size: 18px;
     line-height: 0.9;
     /* margin-top: 140px; */
-    margin-left: 50%;
+    margin-left: 48vw;
 }
 
 .hero__text--colored {
@@ -35,7 +39,7 @@
     will-change: transform;
 }
 
-.down-fast {
+.down-slower {
     transform: translate3d(0, calc(var(--scrollTop) / 7), 0);
 }
 
@@ -57,7 +61,7 @@
 
 .hero__gif-2-thumb {
     position: absolute;
-    top: 390px;
+    top: 400px;
     right: 25px;
     width: 165px;
 }
