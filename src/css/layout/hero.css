@@ -84,12 +84,12 @@
 
 @media screen and (min-width: 1200px) {
     .hero {
-        height: 200vh;
+        height: 260vh;
     }
 
     .hero__title {
-        /* top: 0;
-        left: -10%; */
+        top: 400px;
+        left: 0;
         font-size: 285px;
         /* letter-spacing: 5px; */
     }
@@ -98,7 +98,7 @@
         width: 390px;
         font-size: 40px;
         line-height: 0.9;
-        margin-top: 5%;
+        margin-top: -280px;
         margin-left: 55%;
     }
 
@@ -106,5 +106,28 @@
         top: -4%;
         left: 23%;
         width: 350px;
+    }
+
+    .hero__gif-2-thumb {
+        position: absolute;
+        top: 580px;
+        right: 0;
+        width: 640px;
+    }
+
+    .hero__gif-3-thumb {
+        position: absolute;
+        z-index: 3;
+        top: 860px;
+        left: 20px;
+        width: 499px;
+    }
+
+    .hero__gif-4-thumb {
+        position: absolute;
+        z-index: 3;
+        top: 1170px;
+        right: 15px;
+        width: 310px;
     }
 }
