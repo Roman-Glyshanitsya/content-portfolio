@@ -11,3 +11,9 @@ body {
     background-color: var(--primary-color);
     scroll-behavior: smooth;
 }
+
+iframe {
+    display: block;
+    width: 100%;
+    height: auto;
+}
