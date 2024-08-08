@@ -1,5 +1,5 @@
 .services {
-    height: 100vh;
+    height: 750px;
 }
 
 .services__title {
@@ -28,7 +28,7 @@
 
 @media screen and (min-width: 1200px) {
     .services {
-        height: 150vh;
+        height: 950px;
     }
 
     .services__title {

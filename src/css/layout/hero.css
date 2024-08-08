@@ -84,7 +84,7 @@
 
 @media screen and (min-width: 1200px) {
     .hero {
-        height: 260vh;
+        height: 1900px;
     }
 
     .hero__title {
@@ -112,7 +112,7 @@
         position: absolute;
         top: 580px;
         right: 0;
-        width: 640px;
+        width: 540px;
     }
 
     .hero__gif-3-thumb {
