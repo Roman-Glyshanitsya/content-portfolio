@@ -19,10 +19,10 @@
 }
 
 .projects__thumb {
+    position: relative;
     /* width: 100%;
     height: 75vh; */
-    /* border-top: 3px solid var(--accent-color);
-    border-bottom: 3px solid var(--accent-color); */
+    /* outline: 3px solid red; */
     overflow: hidden;
     padding-top: 35px;
     padding-bottom: 35px;
@@ -56,12 +56,26 @@
 }
 
 .pojects__item__thumb-1 {
-    width: 200px;
-    height: 113px;
+    width: 185px;
+    height: 104px;
 }
 
 .pojects__item__thumb-2 {
+    position: absolute;
+    right: 0;
+    width: 138px;
+    height: 245px;
+}
+
+.pojects__item__thumb-3 {
     width: 150px;
+    height: 137px;
+}
+
+.pojects__item__thumb-4 {
+    width: 100%;
+    height: 199px;
+    margin-top: 70px;
 }
 
 .projects__item__play-btn {
