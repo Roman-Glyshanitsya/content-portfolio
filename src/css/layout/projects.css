@@ -31,7 +31,7 @@
 .projects__list {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 20px;
 }
 
 .projects__item {
@@ -52,30 +52,37 @@
     position: absolute;
     top: 0;
     left: 0;
+    width: 100%;
     cursor: pointer;
 }
 
 .pojects__item__thumb-1 {
-    width: 185px;
-    height: 104px;
+    width: 228px;
+    height: 128px;
 }
 
 .pojects__item__thumb-2 {
-    position: absolute;
-    right: 0;
-    width: 138px;
-    height: 245px;
+    position: relative;
+    right: -55%;
+    /* position: absolute; */
+    /* right: 0; */
+    width: 157px;
+    height: 280px;
 }
 
 .pojects__item__thumb-3 {
-    width: 150px;
-    height: 137px;
+    position: relative;
+    top: -250px;
+    width: 154px;
+    height: 141px;
 }
 
 .pojects__item__thumb-4 {
-    width: 100%;
-    height: 199px;
-    margin-top: 70px;
+    position: relative;
+    top: -160px;
+    right: -45%;
+    width: 198px;
+    height: 111px;
 }
 
 .projects__item__play-btn {
@@ -119,13 +126,13 @@
     transform: translate3d(0, calc(var(--scrollTop) / 5), 0);
 } */
 
-/* .prejects__down-slow {
+.prejects__down-slow {
     transform: translate3d(0, calc(var(--scrollTop) / 7), 0);
-} */
+}
 
-/* .prejects__up {
+.prejects__up {
     transform: translate3d(0, calc(var(--scrollTop) / -5), 0);
-} */
+}
 
 /* .three-in-row__list {
     position: relative;
