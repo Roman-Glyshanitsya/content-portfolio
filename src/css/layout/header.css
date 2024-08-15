@@ -30,7 +30,7 @@
 .header__nav-list {
     display: flex;
     flex-direction: column;
-    gap: 3px;
+    gap: 5px;
 }
 
 .header__nav-item {}
