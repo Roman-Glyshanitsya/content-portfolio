@@ -16,7 +16,7 @@
 }
 
 .bottom__line {
-    /* margin-top: 10px; */
+    /* margin-top: -100px; */
 }
 
 .projects__thumb {
@@ -150,17 +150,17 @@
 }
 
 .pojects__item__thumb-14 {
-    position: relative;
+    position: absolute;
     top: 110px;
-    right: -30%;
+    right: 0;
     width: 230px;
     height: 129px;
 }
 
 .pojects__item__thumb-15 {
-    position: relative;
-    top: -380px;
-    right: -5%;
+    position: absolute;
+    top: -220px;
+    left: 10%;
     width: 300px;
     height: 168px;
 }

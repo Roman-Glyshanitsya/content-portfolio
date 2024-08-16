@@ -2,9 +2,10 @@
     padding: 100px 0;
     background-color: #e7e8e7;
 
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    height: 100vh;
 }
 
 .clients__title {
