@@ -109,18 +109,17 @@
 
 .pojects__item__thumb-8 {
     position: relative;
-    top: -330px;
-    right: -55%;
-    width: 136px;
-    height: 137px;
+    top: -170px;
+    width: 182px;
+    height: 275px;
 }
 
 .pojects__item__thumb-9 {
     position: relative;
-    top: -350px;
-    /* right: -55%; */
-    width: 161px;
-    height: 244px;
+    top: -700px;
+    right: -45%;
+    width: 198px;
+    height: 199px;
 }
 
 .projects__item__play-btn {
