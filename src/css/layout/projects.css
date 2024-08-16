@@ -1,7 +1,7 @@
 .projects {
     background-color: var(--secondary-color);
-    /* height: 3000px; */
-    /* overflow: hidden; */
+    /* height: 100vh;
+    overflow: hidden; */
 }
 
 .projects__title {

@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
       ".pojects__item__thumb iframe"
     );
 
-    console.log(videoCover);
+    // console.log(videoCover);
     videoCover.forEach((item) => {
       item.addEventListener("click", function () {
         item.style.display = "none";
