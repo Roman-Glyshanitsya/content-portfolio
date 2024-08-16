@@ -1,6 +1,7 @@
 .projects {
     background-color: var(--secondary-color);
-    /* height: 100vh; */
+    /* height: 3000px; */
+    /* overflow: hidden; */
 }
 
 .projects__title {
@@ -15,13 +16,11 @@
 }
 
 .bottom__line {
-    margin-top: 80vh;
+    /* margin-top: 10px; */
 }
 
 .projects__thumb {
     position: relative;
-    /* width: 100%;
-    height: 75vh; */
     /* outline: 3px solid red; */
     overflow: hidden;
     padding-top: 35px;
@@ -64,8 +63,6 @@
 .pojects__item__thumb-2 {
     position: relative;
     right: -45%;
-    /* position: absolute; */
-    /* right: 0; */
     width: 198px;
     height: 354px;
 }
@@ -122,6 +119,52 @@
     height: 199px;
 }
 
+.pojects__item__thumb-10 {
+    position: relative;
+    top: -360px;
+    right: -15%;
+    width: 303px;
+    height: 179px;
+}
+
+.pojects__item__thumb-11 {
+    position: relative;
+    top: -360px;
+    width: 240px;
+    height: 240px;
+}
+
+.pojects__item__thumb-12 {
+    position: relative;
+    top: -650px;
+    right: -20%;
+    width: 287px;
+    height: 175px;
+}
+
+.pojects__item__thumb-13 {
+    position: relative;
+    top: -350px;
+    width: 271px;
+    height: 152px;
+}
+
+.pojects__item__thumb-14 {
+    position: relative;
+    top: 110px;
+    right: -30%;
+    width: 230px;
+    height: 129px;
+}
+
+.pojects__item__thumb-15 {
+    position: relative;
+    top: -380px;
+    right: -5%;
+    width: 300px;
+    height: 168px;
+}
+
 .projects__item__play-btn {
     position: absolute;
     z-index: 10;
@@ -171,48 +214,6 @@
     transform: translate3d(0, calc(var(--scrollTop) / -5), 0);
 }
 
-/* .three-in-row__list {
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 150px;
-    margin-bottom: 50px;
-} */
-
-/* .three-in-row__list .projects__item:nth-child(1) {
-    position: relative;
-    top: 100%;
-    right: 0;
-} */
-
-/* .three-in-row__list .projects__item:nth-child(2) {
-    position: absolute;
-    top: -50%;
-    left: 40%;
-} */
-
-/* .three-in-row__list .projects__item:nth-child(3) {
-    position: relative;
-    top: 100%;
-    right: 0;
-} */
-
-/* .projects__item:nth-child(5),
-.projects__item:nth-child(6) {
-    margin-top: 100px;
-} */
-
-/* .projects__item:last-child {
-    margin-top: 100px;
-} */
-
-/* .projects__item--pos {
-    position: relative;
-    z-index: 2;
-    top: -150px;
-    left: 0;
-} */
 
 .projects__item-img {}
 
