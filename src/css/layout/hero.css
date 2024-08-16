@@ -63,7 +63,7 @@
     position: absolute;
     top: 400px;
     right: 25px;
-    width: 165px;
+    width: 192px;
 }
 
 .hero__gif-3-thumb {
@@ -79,7 +79,7 @@
     z-index: 3;
     top: 580px;
     right: 15px;
-    width: 131px;
+    width: 159px;
 }
 
 @media screen and (min-width: 1200px) {
