@@ -23,9 +23,7 @@
     border-top: 3px solid var(--accent-color);
 }
 
-.bottom__line {
-    /* margin-top: -100px; */
-}
+.bottom__line {}
 
 .projects__thumb {
     position: relative;
@@ -39,6 +37,18 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.prejects__down-fast {
+    transform: translate3d(0, calc(var(--scrollTop) / 5), 0);
+}
+
+.prejects__down-slow {
+    transform: translate3d(0, calc(var(--scrollTop) / 7), 0);
+}
+
+.prejects__up {
+    transform: translate3d(0, calc(var(--scrollTop) / -5), 0);
 }
 
 .projects__item {

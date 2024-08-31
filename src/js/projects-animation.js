@@ -7,13 +7,20 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.from(".projects__item", {
   scrollTrigger: {
     trigger: ".projects",
-    start: "top center",
+    start: "-5% center",
     end: "bottom bottm",
     scrub: true,
     // markers: true,
   },
-  scale: 0.8,
+  scale: 0.9,
   transformOrigin: "bottom center",
   stagger: 1,
   duration: 2,
+});
+
+// ================================
+const projectsSection = document.querySelector(".projects");
+
+window.addEventListener("scroll", (e) => {
+  projectsSection.style.cssText = `--scrollTop: ${scrollY - 1500}px`;
 });
