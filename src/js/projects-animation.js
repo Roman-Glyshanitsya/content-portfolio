@@ -7,10 +7,10 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.from(".projects__item", {
   scrollTrigger: {
     trigger: ".projects",
-    start: "-5% center",
+    start: "-10% center",
     end: "bottom bottm",
     scrub: true,
-    // markers: true,
+    markers: true,
   },
   scale: 0.9,
   transformOrigin: "bottom center",
