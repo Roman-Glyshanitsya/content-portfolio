@@ -23,7 +23,13 @@
     border-top: 3px solid var(--accent-color);
 }
 
-.bottom__line {}
+.bottom__line {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    background-color: var(--secondary-color);
+}
 
 .projects__thumb {
     position: relative;

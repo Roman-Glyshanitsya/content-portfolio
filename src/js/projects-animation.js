@@ -10,7 +10,7 @@ gsap.from(".projects__item", {
     start: "-7% center",
     end: "bottom bottm",
     scrub: true,
-    markers: true,
+    // markers: true,
   },
   scale: 0.9,
   transformOrigin: "bottom center",
