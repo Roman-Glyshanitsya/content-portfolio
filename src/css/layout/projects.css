@@ -45,23 +45,23 @@
     gap: 20px;
 }
 
-.prejects__down-fast {
+/* .projects__down-fast {
     transform: translate3d(0, calc(var(--scrollTop) / 5), 0);
 }
 
-.prejects__down-slow {
+.projects__down-slow {
     transform: translate3d(0, calc(var(--scrollTop) / 7), 0);
 }
 
-.prejects__up {
+.projects__up {
     transform: translate3d(0, calc(var(--scrollTop) / -5), 0);
-}
+} */
 
 .projects__item {
     will-change: transform;
 }
 
-.pojects__item__thumb {
+.projects__item__thumb {
     position: relative;
     /* outline: 1px solid red;
     background-color: #fff; */
@@ -79,26 +79,26 @@
     cursor: pointer;
 }
 
-.pojects__item__thumb-1 {
+.projects__item__thumb-1 {
     width: 294px;
     height: 165px;
 }
 
-.pojects__item__thumb-2 {
+.projects__item__thumb-2 {
     position: relative;
     right: -45%;
     width: 198px;
     height: 354px;
 }
 
-.pojects__item__thumb-3 {
+.projects__item__thumb-3 {
     position: relative;
     top: -250px;
     width: 186px;
     height: 170px;
 }
 
-.pojects__item__thumb-4 {
+.projects__item__thumb-4 {
     position: relative;
     top: -180px;
     right: -23%;
@@ -106,44 +106,44 @@
     height: 153px;
 }
 
-.pojects__item__thumb-5 {
+.projects__item__thumb-5 {
     position: relative;
     top: -180px;
     width: 290px;
     height: 160px;
 }
 
-.pojects__item__thumb-6 {
+.projects__item__thumb-6 {
     position: relative;
-    top: -320px;
+    top: -300px;
     right: -30%;
     width: 262px;
     height: 165px;
 }
 
-.pojects__item__thumb-7 {
+.projects__item__thumb-7 {
     position: relative;
     top: -200px;
     width: 264px;
     height: 149px;
 }
 
-.pojects__item__thumb-8 {
+.projects__item__thumb-8 {
     position: relative;
     top: -170px;
     width: 182px;
     height: 275px;
 }
 
-.pojects__item__thumb-9 {
+.projects__item__thumb-9 {
     position: relative;
-    top: -700px;
+    top: -450px;
     right: -45%;
     width: 198px;
     height: 199px;
 }
 
-.pojects__item__thumb-10 {
+.projects__item__thumb-10 {
     position: relative;
     top: -360px;
     right: -15%;
@@ -151,29 +151,29 @@
     height: 179px;
 }
 
-.pojects__item__thumb-11 {
+.projects__item__thumb-11 {
     position: relative;
     top: -360px;
     width: 240px;
     height: 240px;
 }
 
-.pojects__item__thumb-12 {
+.projects__item__thumb-12 {
     position: relative;
-    top: -650px;
+    top: -350px;
     right: -20%;
     width: 287px;
     height: 175px;
 }
 
-.pojects__item__thumb-13 {
+.projects__item__thumb-13 {
     position: relative;
     top: -350px;
     width: 271px;
     height: 152px;
 }
 
-.pojects__item__thumb-14 {
+.projects__item__thumb-14 {
     position: absolute;
     top: 110px;
     right: 0;
@@ -181,7 +181,7 @@
     height: 129px;
 }
 
-.pojects__item__thumb-15 {
+.projects__item__thumb-15 {
     position: absolute;
     top: -220px;
     left: 10%;
@@ -209,8 +209,8 @@
     transition: all 400ms ease-in-out;
 }
 
-.pojects__item__thumb:hover .projects__item__play-btn,
-.pojects__item__thumb:focus .projects__item__play-btn {
+.projects__item__thumb:hover .projects__item__play-btn,
+.projects__item__thumb:focus .projects__item__play-btn {
     background-color: #1c1c1c;
     box-shadow: inset 0 0 15px 15px #000;
 }
@@ -221,8 +221,8 @@
     fill: #000;
 }
 
-.pojects__item__thumb:hover .projects__item__play-btn__icon,
-.pojects__item__thumb:focus .projects__item__play-btn__icon {
+.projects__item__thumb:hover .projects__item__play-btn__icon,
+.projects__item__thumb:focus .projects__item__play-btn__icon {
     fill: #fff;
 }
 
@@ -279,7 +279,7 @@
         will-change: transform;
     }
 
-    .pojects__item__thumb {
+    .projects__item__thumb {
         position: relative;
 
         border-radius: 10px;
@@ -319,8 +319,8 @@
         transition: all 400ms ease-in-out;
     }
 
-    .pojects__item__thumb:hover .projects__item__play-btn,
-    .pojects__item__thumb:focus .projects__item__play-btn {
+    .projects__item__thumb:hover .projects__item__play-btn,
+    .projects__item__thumb:focus .projects__item__play-btn {
         background-color: #1c1c1c;
         box-shadow: inset 0 0 15px 15px #000;
     }
@@ -331,8 +331,8 @@
         fill: #000;
     }
 
-    .pojects__item__thumb:hover .projects__item__play-btn__icon,
-    .pojects__item__thumb:focus .projects__item__play-btn__icon {
+    .projects__item__thumb:hover .projects__item__play-btn__icon,
+    .projects__item__thumb:focus .projects__item__play-btn__icon {
         fill: #fff;
     }
 
