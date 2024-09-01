@@ -1,7 +1,5 @@
 .projects {
     background-color: var(--secondary-color);
-    /* height: 100vh;
-    overflow: hidden; */
 }
 
 .title__thumb {
@@ -44,18 +42,6 @@
     flex-direction: column;
     gap: 20px;
 }
-
-/* .projects__down-fast {
-    transform: translate3d(0, calc(var(--scrollTop) / 5), 0);
-}
-
-.projects__down-slow {
-    transform: translate3d(0, calc(var(--scrollTop) / 7), 0);
-}
-
-.projects__up {
-    transform: translate3d(0, calc(var(--scrollTop) / -5), 0);
-} */
 
 .projects__item {
     will-change: transform;
@@ -115,7 +101,7 @@
 
 .projects__item__thumb-6 {
     position: relative;
-    top: -300px;
+    top: -200px;
     right: -30%;
     width: 262px;
     height: 165px;
@@ -175,15 +161,15 @@
 
 .projects__item__thumb-14 {
     position: absolute;
-    top: 110px;
-    right: 0;
+    top: -340px;
+    right: 10px;
     width: 230px;
     height: 129px;
 }
 
 .projects__item__thumb-15 {
     position: absolute;
-    top: -220px;
+    top: -200px;
     left: 10%;
     width: 300px;
     height: 168px;
@@ -225,19 +211,6 @@
 .projects__item__thumb:focus .projects__item__play-btn__icon {
     fill: #fff;
 }
-
-/* .prejects__down-fast {
-    transform: translate3d(0, calc(var(--scrollTop) / 5), 0);
-}
-
-.prejects__down-slow {
-    transform: translate3d(0, calc(var(--scrollTop) / 7), 0);
-}
-
-.prejects__up {
-    transform: translate3d(0, calc(var(--scrollTop) / -5), 0);
-} */
-
 
 .projects__item-img {}
 
