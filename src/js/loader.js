@@ -32,6 +32,7 @@ function animateText() {
         repeat: 1,
         yoyo: true,
         yoyoEase: true,
+        duration: 0.1,
         // repeatDelay: 0.6,
       }
     );
