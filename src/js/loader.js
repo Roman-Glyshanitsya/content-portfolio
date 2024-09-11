@@ -1,15 +1,11 @@
-// window.addEventListener("load", function () {
-//   // hide loader after load page
-//   var loader = document.querySelector(".loader");
-//   loader.style.display = "none";
-// });
 import { gsap } from "gsap";
-
-// gsap.registerPlugin(TextPlugin);
 
 let letters = ["B", "A", "Z", "A", "L", "E", "V", "S", "K", "I", "Y"];
 let title = document.querySelector(".loader__title");
-let animation = gsap.timeline({ repeat: 1, repeatDelay: 0.1 });
+let animation = gsap.timeline({
+  repeatDelay: 0.1,
+  onComplete: hideLoader,
+});
 
 function createLayers() {
   letters.forEach((value) => {
@@ -21,7 +17,7 @@ function createLayers() {
 
 function animateText() {
   let layers = document.querySelectorAll(".loader__title div");
-  layers.forEach(function (element, index) {
+  layers.forEach(function (element) {
     animation.fromTo(
       element,
       {
@@ -33,7 +29,7 @@ function animateText() {
         yoyo: true,
         yoyoEase: true,
         duration: 0.1,
-        // repeatDelay: 0.6,
+        // repeatDelay: 0.9,
       }
     );
   });
@@ -42,11 +38,10 @@ function animateText() {
   });
 }
 
-createLayers();
-animateText();
-
-window.addEventListener("animationend", function () {
-  // hide loader after load page
+function hideLoader() {
   const loader = document.querySelector(".loader");
   loader.style.display = "none";
-});
+}
+
+createLayers();
+animateText();
