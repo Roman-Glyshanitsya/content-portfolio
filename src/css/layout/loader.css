@@ -26,8 +26,8 @@
     font-size: 50vw;
 }
 
-.loader__box {
-    /* will-change: transform;
+/* .loader__box {
+    will-change: transform;
     position: absolute;
     top: 49%;
     left: 50%;
@@ -35,15 +35,15 @@
     border: 3px solid var(--primary-color);
     background-color: transparent;
     width: 130px;
-    height: 200px; */
+    height: 200px;
 
-    /* position: absolute;
+    position: absolute;
     top: 63%;
     left: 34%;
     height: 3px;
     width: 130px;
-    background-color: var(--primary-color); */
-}
+    background-color: var(--primary-color);
+} */
 
 /* .loader__box::before {
     content: "";

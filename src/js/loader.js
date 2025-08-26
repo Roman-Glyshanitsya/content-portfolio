@@ -18,20 +18,25 @@ function createLayers() {
 function animateText() {
   let layers = document.querySelectorAll(".loader__title div");
   layers.forEach(function (element) {
-    animation.fromTo(
-      element,
-      {
-        opacity: 0,
-      },
-      {
-        opacity: 1,
-        repeat: 1,
-        yoyo: true,
-        yoyoEase: true,
-        duration: 0.1,
-        // repeatDelay: 0.9,
-      }
-    );
+    if (element.innerHTML === "Y") {
+      // Y показується, але без yoyo/зникнення
+      animation.fromTo(element, { opacity: 0 }, { opacity: 1, duration: 0.8 });
+    } else {
+      animation.fromTo(
+        element,
+        {
+          opacity: 0,
+        },
+        {
+          opacity: 1,
+          repeat: 1,
+          yoyo: true,
+          yoyoEase: true,
+          duration: 0.1,
+          // repeatDelay: 0.9,
+        }
+      );
+    }
   });
   gsap.set(".loader__title", {
     visibility: "visible",
