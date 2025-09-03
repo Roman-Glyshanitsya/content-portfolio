@@ -1,6 +1,10 @@
 .clients {
     /* height: 100vh; */
-    height: 750px;
+    height: 690px;
+}
+
+.clients .container {
+    overflow: hidden;
 }
 
 .clients__title {
@@ -10,11 +14,15 @@
 }
 
 .clients__list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center;
+    align-items: center; */
     gap: 40px;
+
+    /* outline: 1px solid red; */
+
+    /* height: 200px; */
 }
 
 .clients__item {
@@ -24,5 +32,77 @@
 }
 
 .clients__img {
-    width: 100px;
+    /* width: 300px; */
 }
+
+
+
+/* ======================================= */
+.marquee {
+    position: relative;
+    width: min(1200px, 90vw);
+    overflow: hidden;
+    padding-top: 80px;
+
+
+}
+
+.marquee__track {
+    display: flex;
+    align-items: center;
+    gap: var(--gap);
+    height: var(--height);
+    will-change: transform;
+    animation: slide-right var(--duration) linear infinite;
+}
+
+/* Клон треку стартує «у фазі», щоб створити безшовну петлю */
+.marquee__track--clone {
+    animation-delay: calc(var(--duration) * -0.5);
+}
+
+.marquee__item {
+    /* flex: 0 0 auto;
+    height: 100%;
+    aspect-ratio: 16 / 10; */
+    /* акуратне співвідношення */
+    /* border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, .35);
+    background: #1c1f26; */
+}
+
+.marquee__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: saturate(1.05) contrast(1.02);
+    transform: translateZ(0);
+    margin-bottom: 70px;
+    padding-left: 10px;
+    /* краще згладжування */
+}
+
+/* Пауза при наведенні */
+.marquee:hover .marquee__track {
+    /* animation-play-state: paused; */
+}
+
+/* Анімація: зліва → направо (контент в'їжджає зліва) */
+@keyframes slide-right {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
+/* Доступність: якщо користувач просить менше руху — зупиняємо */
+/* @media (prefers-reduced-motion: reduce) {
+    .marquee__track {
+        animation: none;
+    }
+} */
