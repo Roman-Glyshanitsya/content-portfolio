@@ -40,7 +40,7 @@
 /* ======================================= */
 .marquee {
     position: relative;
-    width: min(1200px, 90vw);
+    width: min(2000px, 150vw);
     overflow: hidden;
     padding-top: 80px;
 
@@ -62,22 +62,22 @@
 }
 
 .marquee__item {
-    /* flex: 0 0 auto;
-    height: 100%;
-    aspect-ratio: 16 / 10; */
+    /* flex: 0 0 auto; */
+    /* height: 100%; */
+    /* aspect-ratio: 16 / 10; */
     /* акуратне співвідношення */
-    /* border-radius: 14px;
-    overflow: hidden;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, .35);
-    background: #1c1f26; */
+    /* border-radius: 14px; */
+    /* overflow: hidden; */
+    /* box-shadow: 0 8px 24px rgba(0, 0, 0, .35); */
+    /* background: #1c1f26; */
 }
 
 .marquee__img {
     display: block;
-    width: 100%;
-    height: 100%;
+    /* width: 150%;
+    height: 150%; */
     object-fit: cover;
-    filter: saturate(1.05) contrast(1.02);
+    /* filter: saturate(1.05) contrast(1.02); */
     transform: translateZ(0);
     margin-bottom: 70px;
     padding-left: 10px;
