@@ -1,25 +1,12 @@
 .clients {
-    padding: 100px 0;
-    background-color: #e7e8e7;
-
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    height: 100vh;
+    /* height: 100vh; */
+    height: 750px;
 }
 
 .clients__title {
-    color: #1c1c1c;
-    opacity: 1;
+    color: var(--accent-color);
     text-transform: uppercase;
-    font-size: 27px;
-    font-weight: 700;
-    line-height: 130%;
-    text-align: end;
-    border-bottom: 3px solid #bebfbe;
-
-    padding-bottom: 30px;
-    margin-bottom: 50px;
+    font-size: 20vw;
 }
 
 .clients__list {
@@ -31,9 +18,9 @@
 }
 
 .clients__item {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    flex-basis: calc((100% - 200px) / 4);
+    flex-basis: calc((100% - 200px) / 4); */
 }
 
 .clients__img {
