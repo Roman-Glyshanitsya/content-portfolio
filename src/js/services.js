@@ -8,7 +8,7 @@ gsap.from(".service__line", {
     trigger: ".services",
     markers: true,
     start: "-10% center",
-    end: "-=200px",
+    end: "-=100px",
     scrub: true,
   },
   x: -500,
