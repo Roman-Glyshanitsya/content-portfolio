@@ -12,9 +12,7 @@ gsap.from(".service__line", {
     scrub: true,
   },
   x: -500,
-  //   opacity: 0,
-  //   transformOrigin: "left center",
   ease: "none",
   stagger: 1,
-  duration: 1,
+  duration: 2,
 });
