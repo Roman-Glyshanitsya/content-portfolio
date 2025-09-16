@@ -6,7 +6,7 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.from(".service__line", {
   scrollTrigger: {
     trigger: ".services",
-    markers: true,
+    // markers: true,
     start: "-10% center",
     end: "-=100px",
     scrub: true,
