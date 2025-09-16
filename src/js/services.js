@@ -16,4 +16,5 @@ gsap.from(".service__line", {
   //   transformOrigin: "left center",
   ease: "none",
   stagger: 1,
+  duration: 1,
 });
