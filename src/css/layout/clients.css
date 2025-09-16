@@ -3,9 +3,9 @@
     height: 690px;
 }
 
-.clients .container {
+/* .clients .container {
     overflow: hidden;
-}
+} */
 
 .clients__title {
     color: var(--accent-color);
